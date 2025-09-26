@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Lightweight gradients in blue/teal/green -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A2540"/>
+      <stop offset="55%" stop-color="#0B5F6A"/>
+      <stop offset="100%" stop-color="#0D6D34"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4DA3FF" stop-opacity="0.08"/>
+      <stop offset="50%" stop-color="#00F59D" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#4DA3FF" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base gradient (no filters) -->
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+
+  <!-- Minimal abstract shapes (no blur/filters) -->
+  <path d="M-100 950 L 700 650 L 2100 1150 L 2100 1300 L -100 1300 Z" fill="#0C3B59" opacity="0.22"/>
+  <path d="M-100 200 L 1000 450 L 2100 -50 L 2100 -200 L -100 -200 Z" fill="#08314F" opacity="0.22"/>
+
+  <!-- Thin upward lines to suggest growth -->
+  <path d="M120 900 C 360 760, 580 700, 820 540" stroke="url(#line)" stroke-width="2"/>
+  <path d="M520 980 C 820 760, 1240 700, 1540 520" stroke="url(#line)" stroke-width="2"/>
+  <path d="M980 1020 C 1280 820, 1680 740, 1880 580" stroke="url(#line)" stroke-width="2"/>
+</svg>
